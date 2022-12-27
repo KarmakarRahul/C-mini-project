@@ -4,37 +4,21 @@
 #include <cstdlib>
 #include <vector>
 #include <map>
-#include<windows.h>
+#include <windows.h>
 
 using namespace std;
 
 void intro()
 {
-  system("color 0E");
-  cout << "\tWELCOME TO";
-  Sleep(1200);
-  cout << " RK BANK";
-  Sleep(1200);
-  cout << " OF INDIA";
-  cout << "\n\n\n";
-//   Sleep(1000);
-//   cout << "\t  Loading"
-//        << "\n\n";
-//   Sleep(500);
-//   cout << "  ";
-//   char x = 219;
-//   for (int i = 0; i < 25; i++)
-//   {
-//     cout << x;
-//     if (i < 10)
-//       Sleep(150);
-//     if (i > 10 && i < 20)
-//       Sleep(90);
-//     if (i > 10)
-//       Sleep(25);
-//   }
-  Sleep(500);
-  //system("cls");
+    system("color 0E");
+    cout << "\tWELCOME TO";
+    Sleep(1200);
+    cout << " RK BANK";
+    Sleep(1200);
+    cout << " OF INDIA";
+    cout << "\n\n\n";
+
+    Sleep(500);
 }
 
 #define MIN_BALANCE 500
